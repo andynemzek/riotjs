@@ -169,7 +169,7 @@ The compile function takes a string and returns a string.
 
 ## Pre-processors
 
-This is the main fruit of pre- compilation. You can use your favourite pre- processor to create custom tags. Both HTML and JavaScript processor can be customized.
+This is the main fruit of pre- compilation. You can use your favourite pre- processor to create custom tags. Both HTML and JavaScript processors can be customized.
 
 The source language is specified with `--type` or `-t` argument on the command line or you can define the language on the script tag as follows:
 
@@ -245,7 +245,7 @@ npm install babel
 
 ### TypeScript
 
-TypeScript adds type to JavaScript. Use `--type typescript` to enable it:
+TypeScript adds types to JavaScript. Use `--type typescript` to enable it:
 
 ``` sh
 # use TypeScript pre-processor
@@ -353,7 +353,7 @@ Set `expr: true` if you want the expressions to be parsed as well.
 
 ### No transformation
 
-By default Riot uses a build-in transpiler that simply enables shorter ES6- stylish method signatures. You can disable all transformation with `--type none`:
+By default Riot uses a built-in transpiler that simply enables shorter ES6- stylish method signatures. You can disable all transformation with `--type none`:
 
 ``` sh
 # no pre-processor
